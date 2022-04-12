@@ -26,8 +26,7 @@ let isgameover = false;
             document.querySelector('.info').innerText = boxtext[e[0]].innerText + " Won"
             isgameover = true
             document.querySelector('.imageinfo').getElementsByTagName('img')[0].style.width = "200px";
-            // document.querySelector(".line").style.transform = `translate(${e[3]}vw, ${e[4]}vw) rotate(${e[5]}deg)`
-            // document.querySelector(".line").style.width = "20vw";
+           
         }
     })
 }
@@ -59,7 +58,7 @@ element.addEventListener('click',()=>{
     });
     turn = "X"; 
     isgameover = false
-//    document.querySelector(".line").style.width = "0vw";
+
     document.getElementsByClassName("info")[0].innerText  = "Turn for " + turn;
     document.querySelector('.imageinfo').getElementsByTagName('img')[0].style.width = "0px"
 })
