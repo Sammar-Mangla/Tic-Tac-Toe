@@ -31,7 +31,7 @@ nav ul{
     grid-template-rows: repeat(3, 10vw);
     grid-template-columns: repeat(3, 10vw);
     font-family: 'Roboto', sans-serif;
-    position: relative;
+
 }
 
 .box{
