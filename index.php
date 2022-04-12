@@ -18,6 +18,7 @@
     </nav>
     <div class="gamecontainer">
         <div class="container">
+            <div class="line"></div>
             <div class="box bt-0 bl-0"><span class="boxtext"></span></div>
             <div class="box bt-0"><span class="boxtext"></span></div>
             <div class="box bt-0 br-0"><span class="boxtext"></span></div>
